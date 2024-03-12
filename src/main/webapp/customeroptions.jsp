@@ -12,7 +12,7 @@
 	if(c!=null) 
 	{ %>
 
-	<h1>${message }</h1>
+	<h1 align="center">${message }</h1>
 
 	<h1> <a href="displayproducts">Display allproducts</a> </h1>
 

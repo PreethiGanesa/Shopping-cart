@@ -45,8 +45,8 @@ public class MerchantDao {
 	    try {
 	    Merchant merchant=(Merchant) query.getSingleResult();
 	    return merchant;
-	    }
-	    catch (NoResultException e) {
+	    }catch (NoResultException e) {
+	    	
 	    	return null;
 	    }
 
